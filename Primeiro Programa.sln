@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Primeiro Programa", "Primeiro Programa\Primeiro Programa.csproj", "{C545F6B5-0755-4297-BEFB-9AAF51F8C174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroPrograma", "Primeiro Programa\PrimeiroPrograma.csproj", "{C545F6B5-0755-4297-BEFB-9AAF51F8C174}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatusAluno", "StatusAluno\StatusAluno.csproj", "{788947C1-FB95-4BDD-AF89-32A26A5D1997}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia Da Semana", "DiaDaSemana\Dia Da Semana.csproj", "{1ED3D21B-EB7E-44FD-9134-C8CB9FBA442B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiaDaSemana", "DiaDaSemana\DiaDaSemana.csproj", "{1ED3D21B-EB7E-44FD-9134-C8CB9FBA442B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparar dois números (maior)", "Pedir dois números\Comparar dois números (maior).csproj", "{BCD87BD7-EC9A-48B5-AB11-F80C3E8F2137}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompararDoisNumeros_maior", "Pedir dois números\CompararDoisNumeros_maior.csproj", "{BCD87BD7-EC9A-48B5-AB11-F80C3E8F2137}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparar três números (maior)", "Comparar três números\Comparar três números (maior).csproj", "{38C0716D-C2DC-454C-8471-B163E959670C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompararTresNumeros_maior", "Comparar três números\CompararTresNumeros_maior.csproj", "{38C0716D-C2DC-454C-8471-B163E959670C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparar três números (maior, menor)", "Comparar três números (maior, menor)\Comparar três números (maior, menor).csproj", "{8A97FDC6-73FE-4B95-A125-BE79F8D169E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompararTresNumeros_maior_menor", "Comparar três números (maior, menor)\CompararTresNumeros_maior_menor.csproj", "{8A97FDC6-73FE-4B95-A125-BE79F8D169E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renda Recebida", "Renda Recebida\Renda Recebida.csproj", "{70902CEA-C2EB-4B66-A55F-4B0E42C86DB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RendaRecebida", "Renda Recebida\RendaRecebida.csproj", "{70902CEA-C2EB-4B66-A55F-4B0E42C86DB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
