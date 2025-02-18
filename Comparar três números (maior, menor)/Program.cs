@@ -5,64 +5,33 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Imprimir o maior número");
+
             Console.Write("Informe o primeiro número: ");
-            double num1 = Convert.ToInt32(Console.ReadLine());
+            double num1 = double.Parse(Console.ReadLine()!);
 
             Console.Write("Informe o segundo número: ");
-            double num2 = Convert.ToInt32(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine()!);
 
             Console.Write("Informe o terceiro número: ");
-            double num3 = Convert.ToInt32(Console.ReadLine());
+            double num3 = double.Parse(Console.ReadLine()!);
+            Console.Clear();
 
-            if (num1 > num2 && num1 > num3)
+            if (num1 == num2 && num2 == num3)
             {
-                if (num2 == num3)
-                {
-                    Console.WriteLine($"O primeiro número ({num1}) é maior que o segundo e terceiro número, ambos sendo ({num2}).");
-                }
-                else if (num2 > num3)
-                {
-                    Console.WriteLine($"O primeiro número ({num1}) é o maior número, o segundo número ({num2}) é o segundo maior, o terceiro número ({num3}) é o menor de todos");
-                }
-                else
-                {
-                    Console.WriteLine($"O primeiro número ({num1}) é o maior número, o terceiro número ({num3}) é o segundo maior, o segundo número ({num2}) é o menor de todos");
-                }
-            }
-            else if (num2 > num1 && num2 > num3)
-            {
-                if (num1 == num3)
-                {
-                    Console.WriteLine($"O segundo número ({num2}) é maior que o primeiro e terceiro número, ambos sendo ({num1}).");
-                }
-                else if (num1 > num3)
-                {
-                    Console.WriteLine($"O segundo número ({num2}) é o maior número, o primeiro número ({num1}) é o segundo maior, o terceiro número ({num3}) é o menor de todos");
-                }
-                else
-                {
-                    Console.WriteLine($"O segundo número ({num2}) é o maior número, o terceiro número ({num3}) é o segundo maior, o primeiro número ({num1}) é o menor de todos");
-                }
-            }
-            else if (num3 > num1 && num3 > num2)
-            {
-                if (num1 == num2)
-                {
-                    Console.WriteLine($"O terceiro número ({num3}) é maior que o primeiro e segundo número, ambos sendo ({num1}).");
-                }
-                else if (num1 > num2)
-                {
-                    Console.WriteLine($"O terceiro número ({num3}) é o maior número, o primeiro número ({num1}) é o segundo maior, o segundo número ({num2}) é o menor de todos");
-                }
-                else
-                {
-                    Console.WriteLine($"O terceiro número ({num3}) é o maior número, o segundo número ({num2}) é o segundo maior, o primeiro número ({num1}) é o menor de todos");
-                }
+                Console.WriteLine($"Os três números são iguais ({num1}).");
             }
             else
             {
-                Console.WriteLine($"Os números inseridos são iguais ({num1}).");
+                double maior = Math.Max(num1, Math.Max(num2, num3));
+                double menor = Math.Min(num1, Math.Min(num2, num3));
+                double meio = (num1 + num2 + num3) - (maior + menor);
+
+                if (maior == meio)
+                    Console.WriteLine($"Os dois maiores números são iguais ({maior}).\nO menor número é {menor}.");
+                else
+                    Console.WriteLine($"O maior número é {maior}.\nO número intermediário é {meio}.\nO menor número é {menor}.");
             }
         }
     }
 }
+

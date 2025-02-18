@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatusAluno", "StatusAluno\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia Da Semana", "DiaDaSemana\Dia Da Semana.csproj", "{1ED3D21B-EB7E-44FD-9134-C8CB9FBA442B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparar dois números", "Pedir dois números\Comparar dois números.csproj", "{BCD87BD7-EC9A-48B5-AB11-F80C3E8F2137}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparar dois números (maior)", "Pedir dois números\Comparar dois números (maior).csproj", "{BCD87BD7-EC9A-48B5-AB11-F80C3E8F2137}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparar três números", "Comparar três números\Comparar três números.csproj", "{38C0716D-C2DC-454C-8471-B163E959670C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparar três números (maior)", "Comparar três números\Comparar três números (maior).csproj", "{38C0716D-C2DC-454C-8471-B163E959670C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparar três números (maior, menor)", "Comparar três números (maior, menor)\Comparar três números (maior, menor).csproj", "{8A97FDC6-73FE-4B95-A125-BE79F8D169E1}"
 EndProject
