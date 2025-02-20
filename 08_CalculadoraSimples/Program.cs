@@ -4,25 +4,31 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(@"Escolha o Cálculo:
-Soma - 1
-Subtração - 2
-Multiplicação - 3
-Divisão - 4
-Potenciação - 5
-Radiciação - 6");
+            Console.Write(@"
+============================
+    Soma - 1
+    Subtração - 2
+    Multiplicação - 3
+    Divisão - 4
+    Potenciação - 5
+    Radiciação - 6
+============================
+Escolha o Cálculo: ");
 
             int menu = Convert.ToInt32(Console.ReadLine())!;
             while (menu < 1 || menu > 6)
             {
                 Console.Clear();
-                Console.WriteLine(@"Por favor, escolha um número entre 1 e 6 para o Cálculo:
-Soma - 1
-Subtração - 2
-Multiplicação - 3
-Divisão - 4
-Potenciação - 5
-Radiciação - 6");
+                Console.Write(@"
+============================
+    Soma - 1
+    Subtração - 2
+    Multiplicação - 3
+    Divisão - 4
+    Potenciação - 5
+    Radiciação - 6
+============================
+    Por favor, escolha um número entre 1 e 6 para o Cálculo: ");
 
                 menu = Convert.ToInt32(Console.ReadLine())!;
             }
