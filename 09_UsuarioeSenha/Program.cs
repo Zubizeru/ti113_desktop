@@ -12,9 +12,13 @@
 
             while (nome == senha)
             {
+                Console.Clear();
                 Console.Write("A senha não pode ser igual ao nome de usuario. Por favor, insira uma senha diferente: ");
                 senha = Console.ReadLine()!;
             }
+
+           /* Console.WriteLine($"\nNome: {nome}");
+            Console.WriteLine($"Senha: {senha}"); */
         }
     }
 }
